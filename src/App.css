@@ -1,0 +1,52 @@
+.App {
+  text-align: center;
+}
+
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.icon-up:after {
+    content: "\25B2";
+    color: #E0E0E0;
+}
+
+.icon-down:after {
+    content: "\25BC";
+    color: #E0E0E0;
+}
+
+.table, .container-other {
+    width: 80%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.container-other {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+
+.clientInfo p {
+    text-align: left;
+    width: 350px;
+    margin-bottom: 0 !important;
+}
+
+.pagination.justify-content-end {
+}
+
+
